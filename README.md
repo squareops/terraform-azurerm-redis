@@ -31,10 +31,10 @@ Azure Cache for Redis is a managed caching service provided by Microsoft Azure, 
 ```hcl
 module "redis_server" {
   source                   = "squareops/redis/azurerm"
-  name                     = local.name
-  environment              = local.environment
+  name                     = "skaf-redis"
+  environment              = "prod"
   resource_group_name      = "redis-server" # Specify the name of the resource group to be created
-  resource_group_location  = local.region   # Specify the region of the resource group to be created
+  resource_group_location  = "eastus"       # Specify the region of the resource group to be created
   create_vnet              = "true"         # set "true" to create a fresh vnet for the database server.
   vnet_resource_group_name = "demo-rg"      # If vnet creation is set to false, specify the resource group name where vnet is present.
   vnet_name                = "test-vnet"    # If vnet creation is set to false, specify the vnet name here.
