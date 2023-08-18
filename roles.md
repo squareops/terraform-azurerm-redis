@@ -1,0 +1,32 @@
+ permissions {
+    actions = [
+    "Microsoft.Cache/redis/delete",
+    "Microsoft.Cache/redis/listKeys/action",
+    "Microsoft.Cache/redis/patchSchedules/delete",
+    "Microsoft.Cache/redis/read",
+    "Microsoft.Cache/redis/write",
+    "Microsoft.Network/privateDnsZones/SOA/read",
+    "Microsoft.Network/privateDnsZones/delete",
+    "Microsoft.Network/privateDnsZones/read",
+    "Microsoft.Network/privateDnsZones/write",
+    "Microsoft.Network/virtualNetworks/delete",
+    "Microsoft.Network/virtualNetworks/read",
+    "Microsoft.Network/virtualNetworks/subnets/delete",
+    "Microsoft.Network/virtualNetworks/subnets/read",
+    "Microsoft.Network/virtualNetworks/subnets/write",
+    "Microsoft.Network/virtualNetworks/write",
+    "Microsoft.OperationalInsights/workspaces/delete",
+    "Microsoft.OperationalInsights/workspaces/read",
+    "Microsoft.OperationalInsights/workspaces/write",
+    "Microsoft.Resources/subscriptions/providers/read",
+    "Microsoft.Resources/subscriptions/resourcegroups/delete",
+    "Microsoft.Resources/subscriptions/resourcegroups/read",
+    "Microsoft.Resources/subscriptions/resourcegroups/write",
+    "Microsoft.Storage/storageAccounts/blobServices/read",
+    "Microsoft.Storage/storageAccounts/delete",
+    "Microsoft.Storage/storageAccounts/fileServices/read",
+    "Microsoft.Storage/storageAccounts/listKeys/action",
+    "Microsoft.Storage/storageAccounts/read",
+    "Microsoft.Storage/storageAccounts/write"]
+    not_actions = []
+  }
